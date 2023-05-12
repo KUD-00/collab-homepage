@@ -44,8 +44,8 @@ export default async function IndexPage() {
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
           <Image
             src="/images/ritsumei2.jpg"
-            width={800}
-            height={800}
+            width={700}
+            height={700}
             alt="Picture of the author"
           />
           <Link
@@ -102,6 +102,7 @@ export default async function IndexPage() {
               </div>
             </div>
           </div>
+        <Link href="/research">
           <div className="relative overflow-hidden rounded-lg border bg-background p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
@@ -115,6 +116,7 @@ export default async function IndexPage() {
               </div>
             </div>
           </div>
+        </Link>
           <div className="relative overflow-hidden rounded-lg border bg-background p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <svg viewBox="0 0 24 24" className="h-12 w-12 fill-current">
@@ -174,12 +176,6 @@ export default async function IndexPage() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="mx-auto text-center md:max-w-[58rem]">
-          <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Taxonomy also includes a blog and a full-featured documentation site
-            built using Contentlayer and MDX.
-          </p>
         </div>
       </section>
       {/*
