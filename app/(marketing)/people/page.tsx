@@ -18,7 +18,7 @@ export default function ResearchPage() {
                     Who we are
                 </p>
             </div>
-            <div className="grid grid-cols-4 gap-12">
+            <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
                 {people.map((person) => {
                     return (
                         <>
